@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azure"
+    android:scrollbarSize="@dimen/text_title">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical|center"
+        android:padding="3dip"
+        android:text="@string/main_t001"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/text_title"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_sql_input"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="35dp"
+        android:background="@android:drawable/btn_default"
+        android:gravity="center_vertical|center"
+        android:onClick="btn_start_Click"
+        android:text="@string/btn_start"
+
+        android:textColor="@color/red"
+        android:textSize="22dp"/>
+
+    <Button
+        android:id="@+id/btn_sql_input"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@android:drawable/btn_default"
+        android:onClick="btn_sql_Click"
+        android:text="@string/btn_sql"
+        android:textColor="@color/red"
+        android:textSize="22dp"/>
+</RelativeLayout>

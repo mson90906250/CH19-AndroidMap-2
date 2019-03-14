@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".M1901">
+    <item
+        android:id="@+id/item1"
+        android:orderInCategory="100"
+        android:title="@string/item01" />
+    <item
+        android:id="@+id/item2"
+        android:orderInCategory="110"
+        android:title="@string/item02" />
+
+    <item
+        android:id="@+id/item3"
+        android:orderInCategory="111"
+        android:title="@string/item03" />
+
+    <item
+        android:id="@+id/item4"
+        android:orderInCategory="121"
+        android:title="@string/item04" />
+
+    <item
+        android:id="@+id/item5"
+        android:orderInCategory="131"
+        android:title="@string/item05" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="999"
+
+        android:title="@string/action_settings" />
+</menu>
+

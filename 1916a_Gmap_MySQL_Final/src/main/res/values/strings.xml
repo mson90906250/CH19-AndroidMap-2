@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">19-16 GMap-MySQLi-final</string>
+    <string name="title_activity_m1701a">19-16 GMap-MySQLi-final</string>
+    <string name="title_activity_maps">19-16 GMap-MySQLi-final</string>
+    <string name="action_settings">返回</string>
+
+    <string name="myname">1號林繨菖</string>
+    <string name="m_return">返回</string>
+    <string name="m_insert">請填入資料</string>
+    <string name="hint">請輸入</string>
+
+
+</resources>
